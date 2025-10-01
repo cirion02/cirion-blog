@@ -27,14 +27,19 @@ Now most games, even in vintage cube, are longer than 1 turn. So lets consider a
 
 So to put it as a formula
 
-```L = Win chance of Lutri
+
+{% highlight xml %}
+
+L = Win chance of Lutri
 M = Win chance of the missed card
 R = Win chance of the replacement card
 # = Number of cards drawn in a game
 
 IF  L > (# * (M-R)/40) THEN [pick Lutri]
 ELSE [pick missed card]
-```
+
+{% endhighlight %}
+
 
 Lets do one full example before I end this post. The numbers here will be fully pulled out of my ass, I will leave finding the correct powerlevel to actual good cube players. We'll be comparing Lutri to [Fatal Push](https://cards.scryfall.io/normal/front/b/5/b5e81649-9954-424c-89d1-f87d73b66047.jpg?1595869185), and our replacement card is what I consider the weakest black removal spell in the current vintage cube, [Baleful Mastery](https://cards.scryfall.io/normal/front/3/5/35f1a6ba-e46f-44fb-93f4-fb883d677b36.jpg?1624590749).
 My estimate that Lutri wins you a game you would not otherwise have won at about 1/20, and I expect an random vintage cube deck to draw 15 cards in a game. That makes the math
