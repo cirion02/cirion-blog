@@ -18,7 +18,7 @@ Now the first thing to consider is the cost of picking Lutri, which is that you'
 
 When evaluating the power of the missed card, we must compare it to the replacement card. Effectively the power of picking the missed card is `Missed%-Replacement%`. Lutri is different, since Lutri is not replacing a card in your deck, it is always an extra piece, so it can just be evaluated as `Lutri%-0`. This is the first factor making Lutri strong.
 
-The second is that well, you don't have to draw Lutri. There will be some amount of games where the Missed card is not drawn. In which case the GW%+ is 0.
+The second is that well, you don't have to draw Lutri. There will be some amount of games where the Missed card is not drawn. In which case the change in winrate is 0.
 
 The math here is fairly simple, the chance any given card is in the first `X` cards you draw is `X/40`.
 So lets consider a one drop which specifically wants to be drawn on turn one, for an example, consider it to be [Ragavan](https://cards.scryfall.io/large/front/a/9/a9738cda-adb1-47fb-9f4c-ecd930228c4d.jpg?1681963138). On turn one you'll have drawn 7.5 cards. So the chance you draw Ragavan on turn 1 is `7.5/40~=19%`. (This is underestimating, see footnote[^1]) If we take this at face value, we should ask if Ragavan is not just 5 times as good as Lutri, but if the difference between Ragavan% and Replacement% is 5 times as high as Lutri%.
