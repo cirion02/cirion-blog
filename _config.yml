@@ -23,7 +23,9 @@ email: cirion@not-a-real-email.com
 description: >- # this means to ignore newlines until "baseurl:"
   Cirion's blog site for random topics.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://cirion02.github.io/cirion-blog" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "https://cirion02.github.io"
+url: "https://cirion02.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cirion-blog/"
 github_username:  cirion02
 
 # Build settings
