@@ -18,8 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Cirion Blog
-email: cirion@not-a-real-email.com
+title: Cirion's Ramble Palace
 description: >- # this means to ignore newlines until "baseurl:"
   Cirion's blog site for random topics.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
@@ -29,10 +28,14 @@ baseurl: "/cirion-blog/"
 github_username:  cirion02
 
 # Build settings
-theme: minima
+remote_theme: "jekyll/minima@acb0519"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
+minima:
+  skin: dark
+ 
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
