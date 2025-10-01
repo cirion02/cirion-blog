@@ -43,10 +43,12 @@ ELSE [pick missed card]
 
 Lets do one full example before I end this post. The numbers here will be fully pulled out of my ass, I will leave finding the correct powerlevel to actual good cube players. We'll be comparing Lutri to [Fatal Push](https://cards.scryfall.io/normal/front/b/5/b5e81649-9954-424c-89d1-f87d73b66047.jpg?1595869185), and our replacement card is what I consider the weakest black removal spell in the current vintage cube, [Baleful Mastery](https://cards.scryfall.io/normal/front/3/5/35f1a6ba-e46f-44fb-93f4-fb883d677b36.jpg?1624590749).
 My estimate that Lutri wins you a game you would not otherwise have won at about 1/20, and I expect an random vintage cube deck to draw 15 cards in a game. That makes the math
-`0.05 > (15 * (M-R)/40)`
-`0.05/15 > (M-R)/40`
-`(0.05/15)*40 > (M-R)`
-`2/15 > M-R`
+{% highlight xml %}
+0.05 > (15 * (M-R)/40)
+0.05/15 > (M-R)/40`
+(0.05/15)*40 > (M-R)
+2/15 > M-R
+{% endhighlight %}
 So that comes out to, does Balefull Mastery lose you a game Fatal Push would've won 2 out of 15 times it's in your hand. And well, I do not know. I also don't know if Lutri's win rate is actually 1/20. But I hope overall this math can be used by people with better card evaluation skills to pick Lutri at correct times.
 
 [^1]: This assumes mulligans are not important, this is reasonable if you assume Ragavan is not relevant to the chance of a hand being a mulligan. This is false, both in a positive sense, a hand containing Ragavan is more likely to contain 0 lands; and in a negative sense, Ragavan is a really good card and makes opening hands it is in better and thus more likely to be kept.
