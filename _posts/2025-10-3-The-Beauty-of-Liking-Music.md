@@ -5,7 +5,7 @@ tags:
   - philosophy
 layout: post
 title: The Beauty of Liking Music
-date: 2025-10-01 19:36:00 +1000
+date: 2025-10-03 20:06:00 +1000
 ---
 This post is me just writing out some thoughts I have, enjoy :)
 
