@@ -126,9 +126,9 @@ table {
 
 </style>
 
-s = <input type="number" placeholder="number of success cards" id="s"></input><br>
-l = <input type="number" placeholder="number of total cards" id="l"></input><br>
-n = <input type="number" placeholder="number of cards drawn" id="n"></input><br>
+s = <input type="number" placeholder="number of success cards" id="s"><br>
+l = <input type="number" placeholder="number of total cards" id="l"><br>
+n = <input type="number" placeholder="number of cards drawn" id="n"><br>
 <button onclick="run()">Run</button>
 <div id="output">waiting...</div>
 
