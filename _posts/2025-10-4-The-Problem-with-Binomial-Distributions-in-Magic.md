@@ -75,7 +75,7 @@ Now, this is nice and all, but calculating this formula every time compared to j
     let head = document.createElement("thead")
     let headrow = document.createElement("tr")
     let val0 = document.createElement("th")
-    val0.innerHTML = "P"
+    val0.innerHTML = "X"
     headrow.appendChild(val0)
     let val1 = document.createElement("th")
     val1.innerHTML = "P = X"
