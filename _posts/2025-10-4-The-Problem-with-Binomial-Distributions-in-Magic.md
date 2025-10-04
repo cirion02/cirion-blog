@@ -11,7 +11,7 @@ I've used, and have seen many others use Binomial Distribution calculators when 
 First things first, what are binomial distribution calculators. A binomial distribution calculator is used to calculate the odds of a certain amount of events with a given probability happening if you try some amount of times. (Here's a site I've seen used [Online Binomial Calculator](https://stattrek.com/online-calculator/binomial).) So for example, if I flip a coin 5 times, what's the chance I hit heads 3 times.
 
 The math for these is mildly complex, the formula is:
-![Binomial Formula](/assets/img/BinomFormula.png)
+![Binomial Formula](../assets/img/BinomFormula.png)
 The `n above x` is a function in probability theory which represents n choose x, which means: how many ways can you pick n different items out of a list of r. The total function is, chance of succeeding the correct amount of times, chance of failing the correct amount of times, and then accounting for those happening in some arbitrary order[^1]
 
 Ok, so what's the problem, well, it's the `p`, this formula assumes that the chance of succeeding does not change, or in math terms, the trials are independent. This is not true in magic, if you draw a land, there are now fewer lands in your deck, and thus the chance of drawing another land decrease. Binomial calculators do not account for this.
