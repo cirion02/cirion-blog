@@ -4,6 +4,7 @@ tags:
   - math
 title: The Problem with Binomial Distributions in Magic
 date: 2025-10-04 21:07:00 +1000
+edited: 2025-10-05 00:05:00 +1000
 layout: post
 ---
 I've used, and have seen many others use Binomial Distribution calculators when designing magic decks, primarily for calculating how likely you are to draw a certain amount of lands. But while working on a future post involving land probability, I looked at that critically, and it's just not correct.
