@@ -6,6 +6,7 @@ tags:
 title: "Pai Gowermaxed 1: Initial Speculations"
 date: 2025-11-05 10:53:06
 layout: post
+edited: 2025-11-05 12:28:54
 ---
 This is the start of a minor sideprojects I was inspired to think about by some friends on discord. A Pai Gow cube that is entirely focused on maximizing its powerlevel. 
 
@@ -28,8 +29,10 @@ Well, we've won on turn 1, what now? We now need to figure out how to beat this 
 - Prevent the damage
 - Counter the spell
 - Just win in response
+
 The last option here just requires having the same level 1 cards as the opponent, but the other three all require unique cards, which all also have their own level 3 counters. These level 2 spells have an advantage over level 1 spells in that they both stop a level 1 and present a threat themselves, for example: New Way Forward.
 ![New Way Forward](https://cards.scryfall.io/large/front/d/9/d9d48f9e-79f0-478c-9db0-ff7ac4a8f401.jpg?1743204834)
+
 This card both stops a damage-based win attempt and also presents its own win condition. Most answers of this group still lose to some specific level 1 wins, as they specifically exclude their angle of interactions. (Some say damage can't be prevented, or that they can't be countered.)
 
 What I expect to be the strongest set of level 2 cards are the counterspells. If you just add the cards mentioned above to a cube, I expect Smirking Spelljacker to be the strongest card is the cube.
