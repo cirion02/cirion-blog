@@ -3,7 +3,7 @@ tags:
   - mtg
   - canlander
 title: Fair Consulation in Canlander
-date: 2025-12-02 16:46:06
+date: 2025-12-12 16:46:06
 layout: post
 ---
 I've been thinking about the canlander points list lately, mostly in regard to the tutors. Most of the good ones are pointed, (ie: everything down to [Wishclaw](https://scryfall.com/card/fdn/617/wishclaw-talisman) & [Tainted Pact](https://scryfall.com/card/sta/33/tainted-pact)) but one notable one isn't, Demonic Consultation.
