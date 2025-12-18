@@ -4,7 +4,7 @@ tags:
   - rendering
   - trolley-cube
 title: "Rendering Perfectionism 1: Order of the Vector"
-date: 2025-12-18 22:42:02
+date: 2025-12-18 08:42:02
 layout: post
 ---
 Since this is the first port of this series, a quick primer. I maintain a cube called Trolley Problem Cube, the specifics of this cube are not relevant here. The important part is that I often need to make images (or so to say, renders) of cards in the cube that are not real or for some reason need a render different from their official render. (For example, some un-cards need added reminder text.)
