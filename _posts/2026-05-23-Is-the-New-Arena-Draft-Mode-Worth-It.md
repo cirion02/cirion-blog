@@ -18,7 +18,6 @@ Let's start with the reward table for both events (adjusted for their different 
 | --------------- | ----- | ----- | ----- | ----- | ---- | ---- | ----- | ----- |
 | Premier Draft   | -1450 | -1400 | -1250 | -500  | -100 | +100 | +300  | +700  |
 | Contender Draft | -3000 | -3000 | -3000 | -1600 | -200 | +200 | +1200 | +4200 |
-
 \*Note that 7-0, 7-1 & 7-2 all pay the same in both modes.  
 
 From this chart we can see a couple of things. It is a lot easier to offset bad results with good ones in contender draft, as a 7-X pays for almost 1.5 0-3's. Whereas in premier it pays for less than half. premier draft does make an even 3-3 record sting a lot less. The numbers in contender are also obviously bigger, which makes it likely that anyone with a low winrate should stay away from contender draft. But let's get into the hard math.
