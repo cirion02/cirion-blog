@@ -14,7 +14,7 @@ For the methodology of this article, I will be assuming you enter drafts by payi
 
 Let's start with the reward table for both events (adjusted for their different entry costs.)
 
-|                 | 0-3   | 1-3   | 2-3   | 3-3   | 4-3  | 5-3  | 6-3   | 7-X*  |
+|                 | 0-3   | 1-3   | 2-3   | 3-3   | 4-3  | 5-3  | 6-3   | 7-X\*  |
 | --------------- | ----- | ----- | ----- | ----- | ---- | ---- | ----- | ----- |
 | Premier Draft   | -1450 | -1400 | -1250 | -500  | -100 | +100 | +300  | +700  |
 | Contender Draft | -3000 | -3000 | -3000 | -1600 | -200 | +200 | +1200 | +4200 |
