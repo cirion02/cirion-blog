@@ -6,7 +6,7 @@ tags:
   - mtg
   - math
   - retail-limited
-edited: 2026-05-23 19:05:00 +1000
+edited: 2026-05-23 19:10:00 +1000
 ---
 In the latest arena announcement, Wizards unveiled a new draft mode, "Contender Draft". This costs more to enter, but has higher rewards for doing well. In this article I'll be evaluating if it is worth it to play that mode instead of Premier Draft.
 
@@ -18,6 +18,7 @@ Let's start with the reward table for both events (adjusted for their different 
 | --------------- | ----- | ----- | ----- | ----- | ---- | ---- | ----- | ----- |
 | Premier Draft   | -1450 | -1400 | -1250 | -500  | -100 | +100 | +300  | +700  |
 | Contender Draft | -3000 | -3000 | -3000 | -1600 | -200 | +200 | +1200 | +4200 |
+
 \*Note that 7-0, 7-1 & 7-2 all pay the same in both modes.  
 
 From this chart we can see a couple of things. It is a lot easier to offset bad results with good ones in contender draft, as a 7-X pays for almost 1.5 0-3's. Whereas in premier it pays for less than half. premier draft does make an even 3-3 record sting a lot less. The numbers in contender are also obviously bigger, which makes it likely that anyone with a low winrate should stay away from contender draft. But let's get into the hard math.
@@ -26,6 +27,7 @@ I will be performing the math in two ways, in the theoretical world, where I jus
 
 First, the winrate data, the graph looks like this, the X-axis being your winrate in %, and the Y-axis being your expected gems divided by 100. (This is done to make the graph look nicer.)
 ![Graph of winrate vs reward]({{site.baseurl}}/assets/img/DraftRewardGraph.png)
+
 The red line is for premier draft, the Purple line is for contender draft.
 
 From this we can see that contender breaks even much faster, and is better than premier even before that. The exact breakpoint is that contender has a higher return is at 57.86% winrate. Contender breaks even at 60.7% winrate, while premier only breaks even at a 67.8% winrate. So from these metrics all strong drafters should shift over.
