@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anonymous Drawing as a Solution to Tournament cEDH draws
-date: 2026-07-09 17:17:00 +1000
+date: 2026-07-19 17:17:00 +1000
 tags:
   - mtg
   - game-theory
