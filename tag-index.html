@@ -1,0 +1,56 @@
+---
+layout: base
+---
+
+{% assign posts = site.posts %}
+
+<div id="data" style="display:none">
+{%- for post in posts -%}
+    <h1 id="p-{{post.title}}">
+        {%- for tag in post.tags -%}
+            <p id="t-{{tag}}"></p>
+        {%- endfor -%}
+    </h1>
+{%- endfor -%}
+</div>
+
+<h3 id="holder"></h3>
+
+<script>
+    tags = {};
+
+    for (let post of document.getElementById("data").childNodes){
+        for (let node of post.childNodes) {
+            let tag = node.id.slice(2);
+            if (!(tag in tags)) {
+                tags[tag] = 0
+            }
+            tags[tag] += 1;
+        }
+    }
+
+    tagArray = []
+
+    for (var tag in tags) {
+        tagArray.push([tag, tags[tag]]);
+    }
+
+    tagArray.sort(function(a, b) {
+        return b[1] - a[1];
+    })
+    
+    for (var tag of tagArray){
+        let span = document.createElement("span")
+        let a = document.createElement("a")
+        a.innerText = tag[0]
+        a.href = "/cirion-blog/tag-search?q=" + tag[0]
+        span.appendChild(a)
+        let span2 = document.createElement("span")
+        span2.innerText = " (" + tag[1] + ")\xa0\xa0\xa0"
+        span.appendChild(span2)
+
+        console.log(span)
+
+        document.getElementById("holder").appendChild(span);
+    }
+</script>

@@ -1,0 +1,80 @@
+---
+layout: base
+---
+
+{% assign posts = site.posts %}
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+<div id="data" style="display:none">
+{%- for post in posts -%}
+    <div>
+        <p id="title">{{ post.title | escape }}</p>
+        <p id="link">{{ post.url | relative_url }}</p>
+        <p id="tags">
+        {%- for tag in post.tags -%}
+            <span>{{tag}}</span>
+        {%- endfor -%}
+        </p>
+        <p id="date">{{ post.date | date: date_format }}</p>
+    </div>
+{%- endfor -%}
+</div>
+
+<h2 id="search-text"></h2>
+
+<div id="holder"></div>
+
+<script>
+
+    function makePost(title, link, date){
+        let ul = document.createElement("ul")
+        ul.className = "post-list"
+        let li = document.createElement("li")
+        ul.appendChild(li)
+        let span = document.createElement("span")
+        span.className = "post-meta"
+        span.innerText = date
+        li.appendChild(span)
+        let h3 = document.createElement("h3")
+        li.appendChild(h3)
+        let a = document.createElement("a")
+        a.className = "post-link"
+        a.href = link
+        a.innerText = title
+        h3.appendChild(a)
+        document.getElementById("holder").appendChild(ul)
+    }
+
+
+
+    tags = {};
+
+    queryString = window.location.search;
+    urlParams = new URLSearchParams(queryString);
+    query = urlParams.get("q");
+
+    console.log(document.getElementById("data"))
+
+    for (let post of document.getElementById("data").childNodes){
+        console.log(post)
+        let accept = false
+        for (let tag of post.childNodes[5].childNodes) {
+            if (query == tag.innerText){
+                accept = true
+            }
+        }
+        let title = post.childNodes[1].innerText
+        let link = post.childNodes[3].innerText
+        let date = post.childNodes[7].innerText
+        if (accept) {
+            makePost(title, link, date)
+        }
+    }
+
+    if (document.getElementById("holder").innerHTML == ""){
+        document.getElementById("holder").innerText = "No Articles were found with this tag, weird"
+    }
+    else {
+        document.getElementById("search-text").innerText = "Articles with tag: " + query
+    }
+</script>

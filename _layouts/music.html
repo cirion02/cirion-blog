@@ -1,0 +1,37 @@
+---
+layout: base
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if site.music.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for music in site.music -%}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ music.url | relative_url }}">
+            {{ music.date | date: date_format }}
+          </a>
+        </h3>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+</div>
