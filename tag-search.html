@@ -49,18 +49,24 @@ layout: base
 
     tags = {};
 
-    queryString = window.location.search;
-    urlParams = new URLSearchParams(queryString);
-    query = urlParams.get("q");
+    let queryString = window.location.search;
+    let urlParams = new URLSearchParams(queryString);
+    let query = urlParams.get("q");
 
-    console.log(document.getElementById("data"))
+    let negate = false
+
+    if (query.slice(0,1) == "-"){
+        negate = true
+        query = query.slice(1)
+    }
+
 
     for (let post of document.getElementById("data").childNodes){
         console.log(post)
-        let accept = false
+        let accept = negate
         for (let tag of post.childNodes[5].childNodes) {
             if (query == tag.innerText){
-                accept = true
+                accept = !negate
             }
         }
         let title = post.childNodes[1].innerText
@@ -75,6 +81,6 @@ layout: base
         document.getElementById("holder").innerText = "No Articles were found with this tag, weird"
     }
     else {
-        document.getElementById("search-text").innerText = "Articles with tag: " + query
+        document.getElementById("search-text").innerText = "Articles with" + (negate ? "out" : "") + " tag: " + query
     }
 </script>
