@@ -2,6 +2,7 @@
 layout: post
 title: Theorizing about the KBPTL meta 
 date: 2026-08-26 22:12:00 +1000
+edited: 2026-08-26 22:20:00 +1000
 tags:
   - mtg
   - kbptl
@@ -30,7 +31,7 @@ I think this has probably been enough for an initial speculative article. This i
 
 
 
-[^1]: I interpret this as the kamiwaga printing being at common, this means I don't consider [the four later downshifted cards](https://scryfall.com/search?q=set%3Abok%2Cchk%2Csok+r%3Du+f%3Ap+cmc%3C4&unique=cards&as=grid&order=cmc) to be legal in the maindeck.
+[^1]: I interpret this as the kamigawa printing being at common, this means I don't consider [the four later downshifted cards](https://scryfall.com/search?q=set%3Abok%2Cchk%2Csok+r%3Du+f%3Ap+cmc%3C4&unique=cards&as=grid&order=cmc) to be legal in the maindeck.
 [^2]: The exact number of cuts depends on how many lands you want to play, but as your curve ends at 3, that is probably around 18-20. Leaving you wanting 29-31 nonland cards. The colors respectively (in WUBRG order) have: 32, 34, 28, 31, 27.
 [^3]: The vanilla test is an (outdated nowadays) test for whether a creature's power and toughness are good, simply coming down to if `power+toughness >= mana value*2`, so a 2/2 for 2 passes but a 1/4 for 3 does not.
 [^4]: This is middle of the road, the total power of each color is (in WUBRG order): 22, 17, 28, 24, 21. This is not taking into account ways creatures can increase their own power.
