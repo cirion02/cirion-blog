@@ -7,7 +7,7 @@ tags:
   - kbptl
 ---
 
-I've recently starting thinking about KBPTL (Kamiwaga Block Pauper Tiny Leaders) again. While the format was mostly invented as a shitpost, I think the format is at least interesting to speculate about. Whether it is fun to play, I do not currently know. So because it is enjoyable, I will be using this article to speculate plenty. I have a desire to playtest the format, but currently I have not done so.  As such what I say may turn out to be inaccurate.
+I've recently starting thinking about KBPTL (Kamigawa Block Pauper Tiny Leaders) again. While the format was mostly invented as a shitpost, I think the format is at least interesting to speculate about. Whether it is fun to play, I do not currently know. So because it is enjoyable, I will be using this article to speculate plenty. I have a desire to playtest the format, but currently I have not done so.  As such what I say may turn out to be inaccurate.
 
 But first, an introduction for people unfamiliar with this format. KBPTL is a combination of the following formats: Kamigawa Block Constructed, Pauper Commander and Tiny Leaders. Kamigawa Block Constructed means you can only use cards from Saviors, Betrayers and Champions of Kamigawa. Pauper Commander means you can only play commons in your maindeck[^1], and your commander has to be an uncommon creature. (Although it does not need to be legendary.) Finally Tiny Leader means every card in your deck must have a mana value of 3 or less, and your deck must be exactly 50 cards.
 
