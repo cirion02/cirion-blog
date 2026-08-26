@@ -34,3 +34,18 @@ layout: base
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script>
+    function addImage(elem){
+        var img = document.createElement("img")
+
+        img.src = elem.attributes.img.value;
+
+        elem.appendChild(img)
+
+
+    }
+    for (var x of document.getElementsByClassName("card")){
+      addImage(x)
+    }
+</script>
