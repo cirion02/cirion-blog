@@ -32,7 +32,9 @@ layout: base
     tagArray = []
 
     for (var tag in tags) {
-        tagArray.push([tag, tags[tag]]);
+        if (tag != "hidden") {
+            tagArray.push([tag, tags[tag]]);
+        }
     }
 
     tagArray.sort(function(a, b) {

@@ -64,11 +64,16 @@ layout: base
     for (let post of document.getElementById("data").childNodes){
         console.log(post)
         let accept = negate
+        let skip = false
         for (let tag of post.childNodes[5].childNodes) {
+            if (tag.innerText == "hidden"){
+                skip = true
+            }
             if (query == tag.innerText){
                 accept = !negate
             }
         }
+        if (skip) continue;
         let title = post.childNodes[1].innerText
         let link = post.childNodes[3].innerText
         let date = post.childNodes[7].innerText
