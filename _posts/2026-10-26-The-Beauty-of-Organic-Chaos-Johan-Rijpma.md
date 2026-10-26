@@ -2,12 +2,13 @@
 layout: post
 title: "The Beauty of Organic Chaos: Johan Rijpma"
 date: 2026-10-26 11:42:00 +1000
+edited: 2026-10-26 14:42:00 +1000
 tags:
   - art
 ---
 
 
-Dit artikel is ook leesbaar in het Nederlands, voor de vertaling: [klik hier]({{site.baseurl}}/2026/10/26/The-Beauty-of-Organic-Chaos-Johan-Rijpma-dutch.html)
+Dit artikel is ook leesbaar in het Nederlands, voor de vertaling: [klik hier]({{site.baseurl}}/2026/10/26/The-Beauty-of-Organic-Chaos-Johan-Rijpma-DUTCH.html)
 
 In this article I'd like to talk about an artist whose work I like a lot, and why I find his art so appealing. This artist is Johan Rijpma, you can find his work [here](https://www.johanrijpma.nl/category/films/). I will also show works individually as I talk about them.
 
