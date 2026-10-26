@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Trolley Problem Cube
-date: 2026-10-22 14:12:00 +1000
+date: 2026-10-26 14:12:00 +1000
 tags:
   - mtg
   - cube
@@ -22,7 +22,7 @@ That about wraps up my philosophical justification for my choices. However, ther
 
 Moving on to the command zone, this cube has a lot of cards that "live in your command zone", by which I mean that you always have access to them. This includes more traditional types like conspiracies, vanguards and companions. But also heroes, and this cube's special rule: "If a card says it can be your commander, it can be your commander." Notably, I rule that this does not require your deck to follow said cards' color identity[^2]. All types of cards that live in the command zone have minor differences that add unique texture to the format, but all of them ask a fundamental question in the draft phase: "How good is it to always have access to a card? Is it better to always have a small upside or have a chance to draw a large upside?" I personally believe them to be incredibly strong, but how strong exactly is an open question.[^3] Learning how to evaluate the command zone is one of the main skills you learn as you play the cube more.
 
-The cube in general has had very positive reception among players and has, over many iterations, evolved into its current state, which I am broadly happy with. I still tinkering with the list often, making changes to try and make the cube even better. I also softly intend to start documenting the updates to the cube on this blog, but writing this introduction before doing that felt important to me.
+The cube in general has had very positive reception among players and has, over many iterations, evolved into its current state, which I am broadly happy with. I'm still tinkering with the list often, making changes to try and make the cube even better. I also softly intend to start documenting the updates to the cube on this blog, but writing this introduction before doing that felt important to me.
 
 [^1]: There is a general misconception in many magic spaces that vintage is all about combo-ing off on turn 1, but this isn't really the case. The format is more about managing your powerful resources against your opponent to get into a state where you have enough advantage that you can win. That can happen in turn 1, but is by no means expected to. 
 [^2]: The rules justification for this is that the rules for following color identity are part of the commander/commander-draft format, which we are not playing. We are simply letting card text override the CR, as it instructs us to do.
