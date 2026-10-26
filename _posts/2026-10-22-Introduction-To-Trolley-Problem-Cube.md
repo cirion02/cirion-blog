@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Introduction to Trolley Problem Cube
-date: 2026-10-26 14:12:00 +1000
+date: 2026-10-22 14:12:00 +1000
+edited: 2026-10-26 14:12:00 +1000
 tags:
   - mtg
   - cube
