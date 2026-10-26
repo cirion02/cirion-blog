@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Prachtige Chaos van de Natuur : Johan Rijpma"
+title: "De Prachtige Chaos van de Natuur : Johan Rijpma"
 date: 2026-10-26 11:43:00 +1000
 hidden: true
 tags:
@@ -9,7 +9,7 @@ tags:
 
 (If this is in your rss feed you can ignore it)
 
-This article is also available in english, to view that: [click here]({{site.baseurl}}/2026/10/26/The-Beauty-of-Organic-Chaos-Johan-Rijpma.html)
+This article is also available in english, to view that: [click here]({{site.baseurl}}2026/10/26/The-Beauty-of-Organic-Chaos-Johan-Rijpma.html)
 
 
 In dit artikel ga ik het hebben over de kunstwerken van een kunstenaar die ik erg goed vind, en waarom ik zo veel waarde uit zijn kunst haal. De kunstenaar is Johan Rijpma, je kan al zijn kunstwerken [hier](https://www.johanrijpma.nl/category/films/) zien. De werken waar ik het in dit artikel over heb zie je hieronder.
