@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Don't Put Advantageous Proclamation in Your Cube"
+date: 2026-10-29 16:19:00 +1000
+tags:
+  - mtg
+  - cube
+---
+This'll be a shorter article to just get a thought out of my head, I will be arguing why <span class="card" img="https://cards.scryfall.io/display/front/f/8/f8c37fe8-43b3-454e-a70b-5b0d0f396a33.webp">Advantageous Proclamation</span> should, in my opinion, almost never be in any cube. (It is only my opinion, you might disagree with my conclusion, which is that's fine.)
+
+Firstly, this card is immensely powerful, it is not the strongest card you can put in a cube. (Cards like <span class="card" img="https://cards.scryfall.io/display/front/b/b/bbfca319-edc4-45f2-b208-35c8112ec918.webp?1783939380">Power Play</span>[^1] and <span class="card" img="https://cards.scryfall.io/display/front/1/c/1cc16638-093d-4010-89ae-a1e564921e62.webp">Squee</span> beat it there.) But it is incredibly busted. Let's justify that sentence, it obviously lets you cut the 3 worst non-lands from your deck, which is amazing. Your average card quality goes up a lot when you get to cut the worst cards. You can compare this to a single pick giving you 3 cards that are average for your deck. That's incredible pick efficiency, and it has the same effect on 2 of your lands. But that is not all, having a smaller deck size makes finding 2-card combos much easier. The odds of finding a pair of cards in your first 15 cards seen go from 13.4% to 17.6%, that increase will win you games in any combo deck. Drafting a combo deck is also easier because you get to pick more cards speculatively, as you'll rarely if ever be short playables. But even if you're not playing combo, I think just getting a 5 for 1 deal on picks is already more that enough to justify this card as incredibly powerful.
+
+Now that we're hopefully on the same page on how strong this card is, my main point. First picking it is soooo boring, who the fuck feels excited about opening this? If I'm playing to win, I have to pick this boring-ass card. I will never feel like, "Oh wow, thank god for <span class="card" img="https://cards.scryfall.io/display/front/f/8/f8c37fe8-43b3-454e-a70b-5b0d0f396a33.webp">Advantageous Proclamation</span>, it really won me that game." It is simply silently broken. Slamming a piece of power in vintage cube feels awesome, getting you mox out an Ajani feels like you're doing broken stuff, and that's fun. But instead of picking the mox I'm supposed to pass it to pick this boring-ass consistency. I believe the experience of picking <span class="card" img="https://cards.scryfall.io/display/front/f/8/f8c37fe8-43b3-454e-a70b-5b0d0f396a33.webp">Advantageous Proclamation</span> feels bad and that makes the card undesirable in all but cubes that power-max at the cost of play experience.
+
+Overall, my point is: Drafting this card isn't fun, and you are punishing your drafters for playing correctly with less fun experiences. I would argue punishing drafters like that is bad cube design, and thus should be avoided by simply not including this card.
+
+[^1]: <span class="card" img="https://cards.scryfall.io/display/front/b/b/bbfca319-edc4-45f2-b208-35c8112ec918.webp?1783939380">Power Play</span> also shouldn't be in most 1v1 cubes, as going second all three games of a match feels really bad.
